@@ -1,0 +1,54 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+div.maindiv {
+    background-color: orange;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+div.secdiv {
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    color: dimgrey;
+    margin: 10px;
+    padding: 20px;
+}
+
+span.titlespan {
+    margin-bottom: 10px;
+}
+
+span.descspan {
+    font-size: 80%;
+}
